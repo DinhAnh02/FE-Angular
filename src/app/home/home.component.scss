@@ -61,10 +61,36 @@
         margin-top: 20px;
     }
 
-    .product-item:hover {
-        height: 480 px;
-        width: 300px;
+    /* Mặc định cho kích thước lớn (desktop) */
+    .product-item {
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     }
+
+    .product-item:hover {
+        transform: translateY(-10px);
+        /* Nhấp lên khi hover */
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    /* Điều chỉnh cho màn hình nhỏ (tablets, smartphones) */
+    @media (max-width: 768px) {
+        .product-item:hover {
+            transform: translateY(-8px);
+            /* Nhấp lên ít hơn trên màn hình nhỏ */
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+        }
+    }
+
+    /* Điều chỉnh cho màn hình rất nhỏ (smartphones) */
+    @media (max-width: 480px) {
+        .product-item:hover {
+            transform: translateY(-5px);
+            /* Nhấp lên nhẹ hơn trên màn hình rất nhỏ */
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+    }
+
 
     .product-image {
         width: 100%;
@@ -117,4 +143,14 @@
 
     .btn-buy:hover {
         opacity: 0.8;
+    }
+
+    .btn-heart {
+        color: white;
+        font-size: 27px;
+        margin-left: 8px;
+    }
+
+    .btn-heart:hover {
+        color: red;
     }
