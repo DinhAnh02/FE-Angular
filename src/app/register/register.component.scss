@@ -2,7 +2,11 @@
     color: white;
     height: 100vh;
 }
-.login-form {
+.container {
+    color: white;
+    height: 100vh;
+}
+.register-form {
     background-color: rgb(12,12,55);
     border-radius: 10px;
     padding: 20px;
@@ -10,9 +14,9 @@
     align-items: center;
     justify-content: center;
     border: 1px solid rgb(32, 34, 60);
-    margin-top: 60px;
+    margin-top: 30px;
 }
-.login-header {
+.register-header {
     text-align: center;
     color: rgb(105,244,101);
     margin-bottom: 20px;
@@ -79,7 +83,7 @@
 .form-control:-ms-input-placeholder{
     color: rgba(243,165,42,0.4);
 }
-.login-button{
+.register-button{
     background: linear-gradient(to right, rgb(255,64,180),rgb(126,43,237));
     color: white;
     border-radius: 30px;

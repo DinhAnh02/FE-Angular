@@ -1,12 +1,14 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { DetailProductComponent } from './detail-product/detail-product.component';
 import { FooterComponent } from './footer/footer.component';
 import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './home/home.component';
+import { LoginComponent } from './login/login.component';
 import { MidFooterComponent } from './mid-footer/mid-footer.component';
 import { OrderConfirmComponent } from './order-confirm/order-confirm.component';
 import { OrderComponent } from './order/order.component';
-import { LoginComponent } from './login/login.component';
+import { RegisterComponent } from './register/register.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,10 @@ import { LoginComponent } from './login/login.component';
     MidFooterComponent,
     OrderComponent,
     OrderConfirmComponent,
-    LoginComponent
+    LoginComponent,
+    RegisterComponent,
+    DetailProductComponent,
+
   ],
   imports: [
     BrowserModule,
@@ -24,13 +29,14 @@ import { LoginComponent } from './login/login.component';
   providers: [],
   bootstrap: [
     // HeaderComponent,
-    // HomeComponent,
+    HomeComponent,
     // FooterComponent,
     // MidFooterComponent,
-    // MidHeaderComponent,
     // OrderComponent,
     // OrderConfirmComponent,
-    LoginComponent,
+    // LoginComponent,
+    // RegisterComponent,
+    // DetailProductComponent,
   ]
 })
 export class AppModule { }

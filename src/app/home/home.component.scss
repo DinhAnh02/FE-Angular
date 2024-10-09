@@ -1,7 +1,8 @@
-    .container{
+    .container {
         // transform: translate(0, 3%);
         margin-top: 50px;
     }
+
     .intro-section {
         text-align: center;
         color: #fff;
@@ -86,6 +87,7 @@
 
     .product-price {
         color: #fff;
+        font-size: 20px;
     }
 
     .product-rating {
@@ -101,4 +103,26 @@
 
     .space-x {
         margin: 0 5px;
+    }
+
+    .btn-icon {
+        color: white;
+        font-size: 25px;
+    }
+
+    .btn-icon:hover {
+        color: rgb(242, 126, 212);
+    }
+
+    .btn-buy {
+        border-radius: 20px;
+        background: linear-gradient(to right, rgb(255, 64, 180), rgb(126, 43, 237));
+        outline: none;
+        border: none;
+        color: #fff;
+        padding: 10px 20px;
+    }
+
+    .btn-buy:hover {
+        opacity: 0.8;
     }
