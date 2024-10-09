@@ -19,18 +19,18 @@ import { LoginComponent } from './login/login.component';
     LoginComponent
   ],
   imports: [
-    BrowserModule,
+    BrowserModule
   ],
   providers: [],
   bootstrap: [
-    // HeaderComponent,
-    // HomeComponent,
-    // FooterComponent,
-    // MidFooterComponent,
-    // MidHeaderComponent,
-    // OrderComponent,
-    // OrderConfirmComponent,
-    LoginComponent,
+    HeaderComponent,
+    HomeComponent,
+    FooterComponent,
+    MidFooterComponent,
+    MidHeaderComponent,
+    OrderComponent,
+    OrderConfirmComponent,
+    LoginComponent
   ]
 })
 export class AppModule { }
