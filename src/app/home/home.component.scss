@@ -63,7 +63,7 @@
 
     .product-item:hover {
         height: 480 px;
-        width: 400px;
+        width: 300px;
     }
 
     .product-image {
@@ -81,13 +81,9 @@
         color: rgb(173, 178, 203)
     }
 
-    .product-warranty {
-        color: rgb(242, 126, 212);
-    }
-
     .product-price {
         color: #fff;
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .product-rating {
@@ -99,10 +95,6 @@
         display: flex;
         justify-content: center;
         margin-top: 20px;
-    }
-
-    .space-x {
-        margin: 0 5px;
     }
 
     .btn-icon {
