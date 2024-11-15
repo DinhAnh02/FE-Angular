@@ -23,14 +23,7 @@ import { LoginComponent } from './login/login.component';
   ],
   providers: [],
   bootstrap: [
-    HeaderComponent,
-    HomeComponent,
-    FooterComponent,
-    MidFooterComponent,
-    MidHeaderComponent,
-    OrderComponent,
-    OrderConfirmComponent,
-    LoginComponent
+
   ]
 })
 export class AppModule { }
